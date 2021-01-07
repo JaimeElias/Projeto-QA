@@ -2041,3 +2041,929 @@ D, [2020-12-24T14:05:01.339867 #15792] DEBUG -- : MONGODB | Server description f
 D, [2020-12-24T14:05:01.340158 #15792] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
 D, [2020-12-24T14:05:01.340825 #15792] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 conn:1:2 sconn:280 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x74600380 type=uuid data=0x0eb2cd6fe7bb4d1d...>}], "$db"=>"admin"}
 D, [2020-12-24T14:05:01.352350 #15792] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:22:29.392638 #11180] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:22:29.404469 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:22:29.404887 #11180] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:22:29.405188 #11180] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:22:30.405641 #11180] DEBUG -- : MONGODB | Waiting for up to 29.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:22:31.406572 #11180] DEBUG -- : MONGODB | Waiting for up to 28.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+W, [2021-01-06T14:22:31.465706 #11180]  WARN -- : MONGODB | Error running ismaster on 127.0.0.1:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+D, [2021-01-06T14:22:31.466127 #11180] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'unknown'.
+D, [2021-01-06T14:22:31.466547 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2021-01-06T14:22:43.507094 #11180]  WARN -- : MONGODB | Error running ismaster on 127.0.0.1:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+D, [2021-01-06T14:22:43.507473 #11180] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'unknown'.
+D, [2021-01-06T14:22:43.507881 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2021-01-06T14:22:55.512657 #11180]  WARN -- : MONGODB | Error running ismaster on 127.0.0.1:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+D, [2021-01-06T14:22:55.513073 #11180] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'unknown'.
+D, [2021-01-06T14:22:55.513284 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:23:04.159701 #11180] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:23:04.160224 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:23:04.160824 #11180] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:23:04.161264 #11180] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:23:05.163006 #11180] DEBUG -- : MONGODB | Waiting for up to 29.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:23:06.163609 #11180] DEBUG -- : MONGODB | Waiting for up to 28.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+W, [2021-01-06T14:23:06.164603 #11180]  WARN -- : MONGODB | Error running ismaster on 127.0.0.1:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+D, [2021-01-06T14:23:06.165035 #11180] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'unknown'.
+D, [2021-01-06T14:23:06.165291 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+W, [2021-01-06T14:23:07.518398 #11180]  WARN -- : MONGODB | Error running ismaster on 127.0.0.1:27017: Mongo::Error::SocketError: Errno::ECONNREFUSED: No connection could be made because the target machine actively refused it. - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+D, [2021-01-06T14:23:07.518904 #11180] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'unknown'.
+D, [2021-01-06T14:23:07.519143 #11180] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:20.605686 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:20.626888 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:20.627219 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:20.627565 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:21.628509 #12064] DEBUG -- : MONGODB | Waiting for up to 29.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:21.713166 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:21.746157 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:31.739941 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:31.740552 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:31.758390 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:26:31.758744 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:41.751578 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:41.751932 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:41.771129 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:26:41.771576 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:42.204194 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:42.204648 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:42.204907 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:42.205422 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:42.218614 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:42.219720 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:43.853149 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:43.853732 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:43.854052 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:43.854356 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:44.007180 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:44.008426 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:45.370568 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:45.371841 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:45.372468 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:45.373548 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:45.387092 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:45.388167 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:48.206308 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:48.206942 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:48.207266 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:48.207570 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:48.285313 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:48.286312 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:49.631949 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:49.632574 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:49.632880 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:49.633490 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:49.668073 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:49.669017 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:51.757555 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:51.757904 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:51.784166 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:26:51.784921 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:52.241067 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:52.241416 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:54.028285 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:54.028750 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:55.407019 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:55.407889 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:56.313685 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:56.314154 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:56.314417 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:56.315097 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:56.327857 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:56.328757 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:57.436752 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:57.437426 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:57.437694 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:57.438355 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:57.451523 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:57.452442 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:58.545229 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:58.545771 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:58.546032 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:58.546383 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:58.560301 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:58.574820 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:26:58.816013 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:58.816598 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:59.686707 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:26:59.687585 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:26:59.687974 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:26:59.688262 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:26:59.697631 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:26:59.698578 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:59.699541 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:26:59.700423 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:26:59.711909 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:26:59.712792 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:01.772944 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:01.773321 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:01.797270 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:01.797673 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:02.242942 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:02.243223 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:02.243949 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:02.244216 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:04.033807 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:04.034317 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:04.035106 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:04.035403 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:05.412554 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:05.413276 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:05.418952 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:05.419255 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:06.352240 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:06.352647 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:06.938197 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:06.938836 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:06.939244 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:06.939678 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:06.953205 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:06.954258 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:07.463923 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:07.464386 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:07.465221 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:07.465860 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:08.315420 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:08.315764 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:08.591372 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:08.591747 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:08.824970 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:08.825290 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:09.709433 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:09.709736 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:09.712651 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:09.713115 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:09.740177 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:09.740564 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:11.776191 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:11.776533 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:11.809490 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:11.809804 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:12.256801 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:12.257430 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:12.257914 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:12.258193 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:13.963018 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:13.963464 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:13.963709 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:13.963984 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:13.977576 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:13.978517 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:14.046879 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:14.047289 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:15.425620 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:15.426357 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:15.427034 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:15.427375 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:16.353663 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:16.354004 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:16.990922 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:16.991246 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:17.469904 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:17.470462 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:17.477656 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:17.477932 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:18.327993 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:18.328314 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:18.597987 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:18.598346 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:18.832739 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:18.833246 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:19.717970 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:19.718281 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:19.724652 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:19.725006 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:19.737461 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:19.737927 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:19.747152 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:19.747513 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:20.853948 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:20.854479 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:20.854765 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:20.855081 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:20.868517 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:20.869523 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:21.794006 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:21.794338 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:21.822265 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:21.822689 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:22.269794 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:22.270165 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:24.004251 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:24.004778 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:24.061452 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:24.061786 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:24.081895 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:24.082274 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:25.438367 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:25.438730 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:26.358254 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:26.358602 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:26.365972 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:26.366308 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:26.978463 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:26.978820 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:27.000859 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:27.001373 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:27.482687 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:27.483070 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:27.489403 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:27.489691 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:27.787399 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:27.787898 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:27.788152 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:27.788642 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:27.801801 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:27.802760 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:28.340085 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:28.340398 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:28.603306 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:28.603620 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:28.610117 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:28.610405 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:28.843034 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:28.843453 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:29.726745 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:29.727274 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:29.736999 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:29.737283 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:29.749749 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:29.750278 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:29.751000 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:29.751278 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:30.896069 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:30.896457 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:31.795248 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:31.795647 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:31.835078 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:31.835639 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:32.269778 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:32.270107 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:32.282815 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:32.283089 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:34.002568 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:34.003074 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:34.003932 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:34.004232 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:34.071262 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:34.071560 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:34.094455 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:34.095450 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:34.669691 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:34.670142 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:34.670484 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:34.670790 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:34.683837 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:34.684722 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:35.447307 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:35.447664 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:35.452250 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:35.452525 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:36.375409 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:36.375802 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:36.378269 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:36.378564 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:36.991580 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:36.991868 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:37.011347 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:37.012422 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:37.495984 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:37.496401 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:37.502506 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:37.502801 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:37.829488 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:37.829881 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:38.353440 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:38.353739 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:38.612332 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:38.612663 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:38.622267 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:38.622601 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:38.852116 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:38.852486 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:39.735328 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:39.735775 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:39.748734 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:39.749016 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:39.762345 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:39.762678 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:40.091784 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:40.092221 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:40.092482 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:40.092907 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:40.105949 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:40.106903 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:40.895307 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:40.895879 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:40.896361 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:40.896755 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:41.812944 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:41.813329 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:41.847679 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:41.848524 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:42.286480 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:42.286775 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:42.294678 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:42.294925 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:44.015004 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:44.015405 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:44.079216 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:44.079524 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:44.107513 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:44.107829 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:44.703290 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:44.703609 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:45.453986 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:45.454610 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:45.464402 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:45.464712 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:45.525813 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:45.526249 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:45.526665 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:45.527028 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:45.539855 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:45.540883 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:46.378606 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:46.379088 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:46.391201 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:46.391558 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.004148 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:47.004510 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.024473 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:47.024980 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.492350 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:47.493136 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.514728 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:47.515069 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.826823 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:47.827349 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:47.838482 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:47.838860 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:48.365670 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:48.366084 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:48.625465 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:48.625941 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:48.634736 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:48.635029 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:48.864639 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:48.864955 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:49.745086 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:49.745379 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:49.761220 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:49.761624 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:49.763861 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:49.764559 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:49.775713 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:49.775983 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:50.128281 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:50.128728 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:50.907273 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:50.907730 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:51.047257 #12064] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:27:51.047776 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:27:51.048143 #12064] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:27:51.048425 #12064] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:27:51.061820 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:27:51.062863 #12064] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:27:51.818201 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:51.818511 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:51.860596 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:51.860881 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:52.291442 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:52.291864 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:52.307412 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:52.307690 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:54.028388 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:54.028688 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:54.086374 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:54.086726 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:54.120112 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:54.120458 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:54.708568 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:54.708930 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:54.717909 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:54.718283 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:55.462106 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:55.462421 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:55.476734 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:55.477005 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:55.560843 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:55.561185 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:56.392088 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:27:56.392544 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:27:56.403934 #12064] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:27:56.404363 #12064] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:34.290507 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:34.291092 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:34.291434 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:34.291876 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:34.308266 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:34.309292 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:44.333116 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:30:44.333523 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:46.464895 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:46.465394 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:46.465656 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:46.465925 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:46.479391 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:46.480517 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:47.945307 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:47.945903 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:47.946184 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:47.946514 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:47.960047 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:47.961007 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:48.999108 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:48.999800 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:49.000061 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:49.000449 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:49.013811 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:49.014783 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:49.994097 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:49.994740 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:49.995016 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:49.995633 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:50.008982 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:50.010037 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:51.053340 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:51.053795 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:51.054044 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:51.054366 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:51.067869 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:51.068866 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:52.833424 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:52.833973 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:52.834411 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:52.834801 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:52.848109 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:52.849139 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:54.059229 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:54.059669 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:54.059915 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:54.060210 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:54.073639 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:54.075070 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:54.334217 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:30:54.334787 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:54.344925 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:30:54.345253 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:55.174175 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:55.174687 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:55.174964 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:55.175651 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:55.188941 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:55.189792 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:56.313099 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:56.313834 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:56.314366 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:56.314648 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:56.328076 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:56.328855 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:56.493210 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:30:56.493611 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:56.495193 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:30:56.495675 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:57.985848 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:30:57.986504 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:30:58.420819 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:30:58.421383 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:30:58.421869 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:30:58.422196 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:30:58.435930 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:30:58.436837 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:30:59.036825 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:30:59.037261 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:00.029134 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:00.029459 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:00.472461 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:00.473021 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:00.473273 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:00.473563 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:00.489339 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:00.490300 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:01.079520 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:01.079896 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:01.084680 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:01.084960 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:02.538722 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:02.539232 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:02.539493 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:02.539927 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:02.552758 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:02.553937 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:02.872867 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:02.873199 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:04.104996 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:04.105746 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:04.348222 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:04.348679 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:04.358590 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:04.359382 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:04.559350 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:04.559914 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:04.560195 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:04.560623 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:04.573776 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:04.574731 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:05.208620 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:05.208962 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:06.339710 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:06.340154 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:06.341231 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:06.342161 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:06.504041 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:06.504543 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:06.506930 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:06.507208 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:06.572462 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:06.573059 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:06.573317 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:06.573808 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:06.587334 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:06.588233 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:07.287861 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:07.288584 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:07.290651 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 conn:1:1 sconn:71 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jed@teste.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x55195400 type=uuid data=0xf800616fb27b4c79...>}}
+D, [2021-01-06T14:31:07.302109 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:07.984933 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:07.985342 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:07.986007 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:07.986402 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:08.456640 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:08.457063 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:09.040370 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:09.040808 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:09.043065 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:09.043304 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:10.033864 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:10.034242 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:10.037433 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:10.037829 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:10.505725 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:10.506048 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:11.089422 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:11.089740 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:11.098787 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:11.099061 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:12.572644 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:12.572942 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:12.598919 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:12.599549 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:12.599826 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:12.600229 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:12.612941 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:12.614028 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:12.873665 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:12.874019 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:12.883718 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:12.884126 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:13.386631 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:13.387134 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:13.388501 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:40 conn:1:1 sconn:74 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jed@teste.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x95098480 type=uuid data=0x56d64fb3530c4aaa...>}}
+D, [2021-01-06T14:31:13.401096 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:40 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-01-06T14:31:14.116657 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:14.117041 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:14.360614 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:14.360903 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:14.591141 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:14.591479 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:15.214717 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:15.215162 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:16.350839 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:16.351140 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:16.353825 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:16.354172 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:16.520233 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:16.520533 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:16.600499 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:16.600892 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:16.604094 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:16.604338 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:17.997152 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:17.997444 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:18.467369 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:18.467758 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:18.671885 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:18.672343 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:18.672611 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:18.672985 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:18.686100 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:18.686959 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:19.053109 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:19.053567 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:19.426459 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:19.426932 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:19.428188 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 conn:1:1 sconn:77 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jed@teste.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x49071520 type=uuid data=0x9ccfd8f459d44241...>}}
+D, [2021-01-06T14:31:19.439695 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:20.046420 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:20.046730 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:20.515171 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:20.515492 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:21.103148 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:21.103534 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:21.112185 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:21.112785 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:22.582118 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:22.582574 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:22.624117 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:22.624532 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:22.625890 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:22.626957 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:22.885684 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:22.885995 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.117025 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:24.117905 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.130156 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:24.130710 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.373713 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:24.374109 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.598169 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:24.598594 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.600842 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:24.601168 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:24.663175 #1092] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:31:24.663623 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:31:24.663894 #1092] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:31:24.664339 #1092] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:31:24.677564 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:31:24.678359 #1092] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:31:25.220158 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:25.220468 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:25.228070 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:25.228379 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:25.396548 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:25.396949 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:25.398173 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:48 conn:1:1 sconn:80 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jed@teste.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x58241780 type=uuid data=0xda235f85a7d443b0...>}}
+D, [2021-01-06T14:31:25.409846 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:48 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:26.361183 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:26.361706 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:26.365890 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:26.366247 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:26.531522 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:26.531826 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:26.613144 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:26.613562 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.004188 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:28.004483 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.009613 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:28.009924 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.472490 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:28.473056 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.479813 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:28.480097 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.699434 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:28.699770 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:28.704868 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:28.705163 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:29.050378 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:29.050917 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:29.070220 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:29.071640 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.054931 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:30.055357 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.058653 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.059002 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.527091 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:31:30.527629 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.529598 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.529900 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.882631 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.883243 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.901760 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:50 conn:1:2 sconn:81 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x58241780 type=uuid data=0xda235f85a7d443b0...>}], "$db"=>"admin"}
+D, [2021-01-06T14:31:30.913460 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:50 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:30.931318 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.931653 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.932320 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:52 conn:1:2 sconn:82 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x49071520 type=uuid data=0x9ccfd8f459d44241...>}], "$db"=>"admin"}
+D, [2021-01-06T14:31:30.943720 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:52 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:30.963878 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.964226 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:30.965217 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:54 conn:1:2 sconn:83 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x95098480 type=uuid data=0x56d64fb3530c4aaa...>}], "$db"=>"admin"}
+D, [2021-01-06T14:31:30.976970 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:54 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:31:30.999435 #1092] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:31:30.999851 #1092] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:31:31.001230 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:56 conn:1:2 sconn:84 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x55195400 type=uuid data=0xf800616fb27b4c79...>}], "$db"=>"admin"}
+D, [2021-01-06T14:31:31.013138 #1092] DEBUG -- : MONGODB | 127.0.0.1:27017 req:56 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:33:28.150854 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:28.151529 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:28.151974 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:28.152387 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:28.168573 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:28.169747 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:38.194481 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:38.195111 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:40.032228 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:40.032884 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:40.033331 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:40.033711 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:40.046869 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:40.047780 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:41.521136 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:41.521696 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:41.521987 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:41.522291 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:41.535446 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:41.536423 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:42.533063 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:42.533685 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:42.533981 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:42.534323 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:42.548110 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:42.548678 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:43.528657 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:43.529121 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:43.529379 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:43.529736 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:43.543336 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:43.544290 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:44.598872 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:44.599421 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:44.599743 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:44.600165 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:44.613737 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:44.614651 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:46.482297 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:46.482945 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:46.483263 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:46.483808 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:46.497197 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:46.498240 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:47.669085 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:47.669523 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:47.669804 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:47.670317 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:47.684568 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:47.685089 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:48.196023 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:33:48.196690 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:48.199022 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:48.199426 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:48.772956 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:48.773741 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:48.774120 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:48.774395 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:48.787061 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:48.787967 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:49.915384 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:49.915828 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:49.916086 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:49.916361 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:49.929088 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:49.929981 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:50.070580 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:50.071507 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:50.072441 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:33:50.073336 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:51.551821 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:51.552316 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:52.066570 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:52.067045 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:52.067413 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:52.067700 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:52.080980 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:52.082045 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:52.572034 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:52.572432 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:53.549923 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:53.550246 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:53.556101 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:33:53.556572 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:54.161438 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:54.161941 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:54.162239 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:54.162564 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:54.178182 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:54.179325 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:54.639203 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:54.639572 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:56.122723 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:56.123172 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:56.123461 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:56.124105 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:56.136879 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:56.137885 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:56.518146 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:56.518495 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:57.696704 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:57.697140 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:57.697829 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:33:57.698191 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:58.088814 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:33:58.089377 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:33:58.089770 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:33:58.090124 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:33:58.103691 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:33:58.104644 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:33:58.209618 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:33:58.209934 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:58.801024 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:58.801493 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:33:59.947226 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:33:59.947577 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:00.065907 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:00.066354 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:00.085934 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:34:00.086456 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:34:00.087717 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:34:00.088314 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:34:00.087178 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:00.089092 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:00.103405 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:34:00.104465 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:34:00.822218 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:00.822575 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:00.824406 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 conn:1:1 sconn:115 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x69395600 type=uuid data=0x8a4d2a85e1054dc1...>}}
+D, [2021-01-06T14:34:00.836158 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:36 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:00.838386 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:37 conn:1:1 sconn:115 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Fazer Compras de natal", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x69395600 type=uuid data=0x8a4d2a85e1054dc1...>}}
+D, [2021-01-06T14:34:00.849582 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:37 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:01.562730 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:01.563669 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:01.565292 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:01.565558 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:01.962568 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:38 conn:1:1 sconn:115 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x69395600 type=uuid data=0x8a4d2a85e1054dc1...>}}
+D, [2021-01-06T14:34:01.974251 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:38 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:01.976053 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:39 conn:1:1 sconn:115 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Fazer Compras de natal", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x69395600 type=uuid data=0x8a4d2a85e1054dc1...>}}
+D, [2021-01-06T14:34:01.987336 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:39 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:02.133490 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:02.134900 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:02.145819 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:02.146149 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:02.589690 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:34:02.590348 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:34:02.591298 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:34:02.591779 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:34:02.591001 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:02.592867 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:02.604870 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:34:02.605855 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:34:03.309283 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:03.309691 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:03.310897 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:43 conn:1:1 sconn:118 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x54650480 type=uuid data=0x8979492d2f96408a...>}}
+D, [2021-01-06T14:34:03.322761 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:43 | markdb.find | SUCCEEDED | 0.012s
+D, [2021-01-06T14:34:03.324683 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 conn:1:1 sconn:118 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Ler", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x54650480 type=uuid data=0x8979492d2f96408a...>}}
+D, [2021-01-06T14:34:03.336347 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:44 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:03.569126 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:03.569857 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:03.570388 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:03.570806 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:04.193291 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:04.193802 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:04.548414 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:34:04.549014 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:34:04.549286 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:34:04.549626 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:34:04.562871 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:34:04.563863 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:34:04.638356 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:04.638744 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:05.271554 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:05.271869 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:05.273440 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:48 conn:1:1 sconn:121 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x71011560 type=uuid data=0xb1fa0eca34554819...>}}
+D, [2021-01-06T14:34:05.285194 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:48 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:05.286915 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:49 conn:1:1 sconn:121 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x71011560 type=uuid data=0xb1fa0eca34554819...>}}
+D, [2021-01-06T14:34:05.298638 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:49 | markdb.delete | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:06.157322 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:06.157651 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:06.523852 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:06.524151 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:06.640897 #23368] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2021-01-06T14:34:06.641342 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2021-01-06T14:34:06.641689 #23368] DEBUG -- : MONGODB | Server 127.0.0.1:27017 initializing.
+D, [2021-01-06T14:34:06.642140 #23368] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[127.0.0.1:27017] servers=[#<Server address=127.0.0.1:27017 UNKNOWN>]>
+D, [2021-01-06T14:34:06.655244 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'unknown' to 'standalone'.
+D, [2021-01-06T14:34:06.656098 #23368] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2021-01-06T14:34:07.358933 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:07.359271 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:07.360444 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:53 conn:1:1 sconn:124 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x57805900 type=uuid data=0xd1b9bdef42fd4454...>}}
+D, [2021-01-06T14:34:07.372069 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:53 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:07.373772 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:54 conn:1:1 sconn:124 | markdb.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{"title"=>"Testando tarefa duplicada", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "limit"=>0}], "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x57805900 type=uuid data=0xd1b9bdef42fd4454...>}}
+D, [2021-01-06T14:34:07.384533 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:54 | markdb.delete | SUCCEEDED | 0.010s
+D, [2021-01-06T14:34:07.702993 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:07.703540 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:07.710412 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:07.710716 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:08.131920 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:08.132271 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:08.216735 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone' [awaited].
+D, [2021-01-06T14:34:08.217226 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:08.222658 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:08.223287 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:08.757627 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:55 conn:1:1 sconn:124 | markdb.find | STARTED | {"find"=>"users", "filter"=>{"profile.email"=>"jaimeElias@gmail.com"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x57805900 type=uuid data=0xd1b9bdef42fd4454...>}}
+D, [2021-01-06T14:34:08.769349 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:55 | markdb.find | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:08.771195 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:56 conn:1:1 sconn:124 | markdb.count | STARTED | {"count"=>"tasks", "query"=>{"title"=>"Testando tarefa duplicada", "createdBy"=>"LwbwKAkesqtzfzJ3g"}, "$db"=>"markdb", "lsid"=>{"id"=><BSON::Binary:0x57805900 type=uuid data=0xd1b9bdef42fd4454...>}}
+D, [2021-01-06T14:34:08.782849 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:56 | markdb.count | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:08.827336 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:08.827956 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:09.648352 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:09.648657 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:09.649612 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:58 conn:1:2 sconn:125 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x57805900 type=uuid data=0xd1b9bdef42fd4454...>}], "$db"=>"admin"}
+D, [2021-01-06T14:34:09.660708 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:58 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:09.678583 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:09.678874 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:09.679620 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:60 conn:1:2 sconn:126 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x71011560 type=uuid data=0xb1fa0eca34554819...>}], "$db"=>"admin"}
+D, [2021-01-06T14:34:09.691024 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:60 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:09.709855 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:09.710148 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:09.710882 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:62 conn:1:2 sconn:127 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x54650480 type=uuid data=0x8979492d2f96408a...>}], "$db"=>"admin"}
+D, [2021-01-06T14:34:09.721840 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:62 | admin.endSessions | SUCCEEDED | 0.011s
+D, [2021-01-06T14:34:09.740617 #23368] DEBUG -- : MONGODB | Server description for 127.0.0.1:27017 changed from 'standalone' to 'standalone'.
+D, [2021-01-06T14:34:09.741028 #23368] DEBUG -- : MONGODB | There was a change in the members of the 'Single' topology.
+D, [2021-01-06T14:34:09.741696 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 conn:1:2 sconn:128 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x69395600 type=uuid data=0x8a4d2a85e1054dc1...>}], "$db"=>"admin"}
+D, [2021-01-06T14:34:09.753099 #23368] DEBUG -- : MONGODB | 127.0.0.1:27017 req:64 | admin.endSessions | SUCCEEDED | 0.011s

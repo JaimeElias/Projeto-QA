@@ -1,27 +1,14 @@
-  
-class TarefasPage
-	include Capybara::DSL
+class TarefasPage < SitePrism::Page
 
-	def painel
-		find("#task-board")
-	end
-	
-	def buscar_tr(nome)
-		find("#tasks tbody tr", text: nome)
-	end
+	element :alerta, ".alert-warn"
+	element :cadastro, "#insert-button"
+	element :cadastrar_tarefa, "#form-submit-button"
+	element :data_f, "#dueDate"
+	element :nome, "#title"
+	elements :tr, "#tasks tbody tr"
 
-	def alerta
-		find(".alert-warn").text
-	end
-
-	def cadastrar(nome, data_f)
-		find("#insert-button").click
-
-		within("#add-task") do
-			fill_in "title", with: nome
-			fill_in "dueDate", with: data_f
-			click_on "Cadastrar"
-		end
+	def buscar_tr(n_task)
+		tr.find { |tr| tr.text.match(/#{n_task}/i) }
 	end
 
 end
